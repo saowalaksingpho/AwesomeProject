@@ -14,6 +14,9 @@ import Ex09 from './screens/week2/Ex09';
 import Ex10 from './screens/week2/Ex10';
 import Ex11 from './screens/week2/Ex11';
 import Ex12 from './screens/week2/Ex12';
+import { View } from 'react-native';
+import Greeting from './components/Greeting';
+import Travel from './screens/week3/Travel';
 export default function App() {
   return (
    // <Welcome />
@@ -28,6 +31,12 @@ export default function App() {
   // <Ex09 />
  // <Ex10 />
   // <Ex11 />
-  <Ex12 />
+ // <Ex12 />
+  //  <View style={{alignItems: 'center', top: 50}}>
+  //       <Greeting name='Saowalak'  />
+  //       <Greeting name='Jaina' />
+  //       <Greeting name='Valeera' />
+  //     </View>
+  <Travel />
    );
 }
