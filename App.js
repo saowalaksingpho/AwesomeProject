@@ -19,28 +19,30 @@ import Greeting from './components/Greeting';
 import Travel from './screens/week3/Travel';
 import Health from './screens/week5/Health';
 import Resort from './screens/week4/Resort';
+import Home from './screens/week6/Home';
 export default function App() {
   return (
-   // <Welcome />
-  //<Ex01 />
-  //<Ex02 />
- // <Ex03 />
- // <Ex04 />
- //<Ex05 />
- //<Ex06 />
- //<Ex07 />
-// <Ex08 />
-  // <Ex09 />
- // <Ex10 />
-  // <Ex11 />
- // <Ex12 />
-  //  <View style={{alignItems: 'center', top: 50}}>
-  //       <Greeting name='Saowalak'  />
-  //       <Greeting name='Jaina' />
-  //       <Greeting name='Valeera' />
-  //     </View>
-  //<Travel />
-  // <Health />
-<Resort/> 
-   );
+    // <Welcome />
+    //<Ex01 />
+    //<Ex02 />
+    // <Ex03 />
+    // <Ex04 />
+    //<Ex05 />
+    //<Ex06 />
+    //<Ex07 />
+    // <Ex08 />
+    // <Ex09 />
+    // <Ex10 />
+    // <Ex11 />
+    // <Ex12 />
+    //  <View style={{alignItems: 'center', top: 50}}>
+    //       <Greeting name='Saowalak'  />
+    //       <Greeting name='Jaina' />
+    //       <Greeting name='Valeera' />
+    //     </View>
+    //<Travel />
+    // <Health />
+  //  <Resort />
+    <Home />
+  );
 }
